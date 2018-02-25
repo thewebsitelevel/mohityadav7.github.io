@@ -1,0 +1,92 @@
+{
+  "success": 1,
+  "data": [
+    {
+      "fee": 500,
+      "timing": {
+        "from": 1517324340000,
+        "to": 1549076460000
+      },
+      "coordinators": [
+        {
+          "_id": "5a927b72814981000427f4ad"
+        },
+        {
+          "_id": "5a927b72814981000427f4ac"
+        }
+      ],
+      "prizes": {
+        "prize1": null,
+        "prize2": null,
+        "prize3": null
+      },
+      "eventtype": "solo",
+      "_id": "5a926c59814981000427f4a3",
+      "title": "dsn",
+      "clubname": "Ananya",
+      "category": "Cultural",
+      "desc": "emdks",
+      "rules": "ejmdk wdnslmad",
+      "venue": "fmsdk",
+      "__v": 0,
+      "photolink": null
+    },
+    {
+      "fee": 125,
+      "timing": {
+        "from": 1546288260000,
+        "to": 1514752200000
+      },
+      "coordinators": [
+        {
+          "_id": "5a9277f3814981000427f4a8",
+          "name": "Naman",
+          "phone": 9876543210
+        },
+        {
+          "_id": "5a9277f3814981000427f4a7",
+          "name": "Naman",
+          "phone": 9876543220
+        }
+      ],
+      "prizes": {
+        "prize1": "500",
+        "prize2": "505",
+        "prize3": "505"
+      },
+      "eventtype": "solo",
+      "_id": "5a9277f3814981000427f4a6",
+      "title": "naman",
+      "clubname": "Microbird",
+      "category": "Cultural",
+      "desc": "abnq",
+      "rules": "jdsk",
+      "venue": "LC",
+      "__v": 0
+    },
+    {
+      "fee": 125,
+      "timing": {
+        "from": 1546268460000,
+        "to": 1514732400000
+      },
+      "coordinators": [
+        {
+          "_id": "5a927ad7814981000427f4ab"
+        },
+        {
+          "_id": "5a927ad7814981000427f4aa"
+        }
+      ],
+      "eventtype": "solo",
+      "_id": "5a927ad7814981000427f4a9",
+      "title": "MY EVENT",
+      "clubname": "Manan",
+      "category": "Cultural",
+      "desc": "abnq yes yes",
+      "rules": "jdsk",
+      "venue": "LC",
+      "__v": 0
+    }
+  ]
+}
