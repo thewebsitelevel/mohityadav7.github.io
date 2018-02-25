@@ -87,6 +87,66 @@
       "rules": "jdsk",
       "venue": "LC",
       "__v": 0
+    },
+    {
+      "fee": 500,
+      "timing": {
+        "from": 1517324340000,
+        "to": 1549076460000
+      },
+      "coordinators": [
+        {
+          "_id": "5a927b72814981000427f4ad"
+        },
+        {
+          "_id": "5a927b72814981000427f4ac"
+        }
+      ],
+      "prizes": {
+        "prize1": null,
+        "prize2": null,
+        "prize3": null
+      },
+      "eventtype": "solo",
+      "_id": "5a926c59814981000427f4a3",
+      "title": "dsn",
+      "clubname": "Ananya",
+      "category": "Cultural",
+      "desc": "emdks",
+      "rules": "ejmdk wdnslmad",
+      "venue": "fmsdk",
+      "__v": 0,
+      "photolink": null
+    },
+    {
+      "fee": 500,
+      "timing": {
+        "from": 1517324340000,
+        "to": 1549076460000
+      },
+      "coordinators": [
+        {
+          "_id": "5a927b72814981000427f4ad"
+        },
+        {
+          "_id": "5a927b72814981000427f4ac"
+        }
+      ],
+      "prizes": {
+        "prize1": null,
+        "prize2": null,
+        "prize3": null
+      },
+      "eventtype": "solo",
+      "_id": "5a926c59814981000427f4a3",
+      "title": "dsn",
+      "clubname": "Ananya",
+      "category": "Cultural",
+      "desc": "emdks",
+      "rules": "ejmdk wdnslmad",
+      "venue": "fmsdk",
+      "__v": 0,
+      "photolink": null
     }
   ]
 }
