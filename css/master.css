@@ -1,9 +1,129 @@
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
 body{
-	background-color: #ADEFF9;
-	color: #1C99F1;
-	text-align: center;
-	font-size: 50px;
-	text-shadow: 2px 2px 15px #2581E0;
-	font-family: helvetica;
-	padding: 50px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-image: url("../images/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------- sidebar styling ------------------------------*/
+.aside{
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: #ffffff22;
+    box-sizing: border-box;
+}
+/* developer image */
+.dev-img-container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25% 0;
+}
+.dev-img{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+/* navigation */
+.navigation-bar{
+    padding: 0 25%;
+}
+.navigation-item{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 24px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation-item a{
+    text-decoration: none;
+    color: white;
+}
+.navigation-item a:hover{
+    color: yellow;
+}
+.navigation-item a:active{
+    color: purple;
+}
+
+/*------------------- main content ------------------------*/
+#dev-type{
+    transition: all 0.5s;
+    display: inline-block;
+    width: auto;
+}
+.content{
+    float: right;
+    width: 80%;
+    box-sizing: border-box !important;
+    padding: 15%;
+    height: 100%;
+    margin: 0;
+}
+.heading, .sub-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 48px;
+}
+.heading-container{
+    box-sizing: border-box;
+    margin-bottom: 28px;
+}
+.sub-heading{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.sub-heading-container{
+    box-sizing: border-box;
+    margin-top: 28px;
+}
+
+
+/*-------------------------- media queries ------------------------------*/
+@media only screen and (max-width: 799px){
+    .heading{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .sub-heading{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .content{
+        width: 75%;
+        padding: 25% 5%;
+    }
+
+    /* sidebar */
+    .aside{
+        width: 25%;
+    }
+    .navigation-item a{
+        font-size: 10px;
+        padding: 12px 0;
+    }
+    .dev-img-container{ 
+        padding-top: 100%;
+    }
+    .navigation-bar{
+        padding: 0 20%;
+    }
 }
