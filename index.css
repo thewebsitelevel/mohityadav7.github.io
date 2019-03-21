@@ -1,0 +1,378 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #858585; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+        body{
+            padding: 0;
+            margin: 0;
+        }
+     html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#mainnav {
+  position: fixed;
+  font-family: 'Roboto Condensed', sans-serif;
+  z-index: 1;
+    
+}
+#mainnav li {
+  margin: 55px 0;
+  left: -550px;
+  position: relative;
+  display: none;
+    
+}
+#mainnav a {
+  color: white;   
+  text-decoration: none;
+  font-size: 1.4em;
+} 
+        ul li{
+            list-style: none;
+            margin-top: -50px;
+            
+        }
+.hamb {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 2.5em;
+  z-index: 1;
+}
+.hamb a {
+  color: #fff;
+  text-decoration: none;
+}
+html, body, .hero {
+  height: 100%;
+}
+.hero {
+  width: 100%;
+  min-height: 600px;
+  background-image:url(testmonial-bg.jpg);
+  background-size: cover;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hero-content {
+  font-size: 30px!important;
+  z-index: 999;
+  color: #ffa500;
+}
+
+#bubble {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  position: fixed;
+  display: none;
+  z-index: 1;
+  background: rgba(0, 0, 0, .5);
+}
+     
+        
+        .gap{
+             
+            color: white;
+            margin-top: 100px;
+            width: 200px;
+            
+             
+             
+        }
+        
+        h1 span{
+            font-size: 90px;
+            letter-spacing: 4;
+            margin-left: -30px;
+            color: orange;
+        }
+
+.hero-2 {
+  width: 100%;
+  min-height: 900px;
+  background-image:url(bg.png);
+  background-size: cover;
+}
+
+.parallax-window {
+    min-height: 1000px;
+    background: transparent;
+    text-align: center;
+    margin: 0px;
+    width: 100%!important;
+}
+
+.parallax-window-2 {
+    min-height: 3500px;
+    background: transparent;
+    text-align: center;
+    margin: 0px;
+    width: 100!important;
+}
+
+.header-2 {
+  color: #858585;
+  font-size: 120px;
+  z-index: 999;
+  float: left;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.para {
+  color: #ffa500;
+  font-size: 30px;
+}
+
+.para-2 {
+  color: #858585;
+  font-size: 30px;
+}
+
+.content-2 {
+  margin-left: 50%;
+  text-align: justify;
+  margin-right: 2%;
+}
+
+.header-3 {
+  z-index: 999;
+  color: white;
+  font-size: 130px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.xunbao {
+  float: right;
+  text-align: justify;
+  margin-left: 50%;
+}
+
+.xunbao-head {
+  color: #ffa500;
+  font-size: 90px;
+}
+
+.xunbao-para {
+  color: white;
+  font-size: 30px;
+  margin-right: 1%;
+}
+
+.presentation-head {
+  z-index: 999;
+  color: white;
+  font-size: 90px;
+  float: left;
+  margin-left: 5%;
+  color: #ffa500;
+}
+
+.presentation-para {
+  color: white;
+  font-size: 30px;
+  float: left;
+  text-align: justify;
+  margin-left: 5%;
+}
+
+.code-head {
+  color: #ffa500;
+  font-size: 90px;
+  float: left;
+}
+
+.presentation {
+  color: #ffa500;
+  margin-right: 50%;
+}
+
+.code {
+  float: right;
+  margin-left: 50%;
+  text-align: justify;
+}
+
+.row {
+  width: 100%;
+  height: 80px;
+  border: none;
+  color: black;
+  transform: translate(0px,-40px);
+  background-color: black;
+  z-index: 999;
+}
+
+.code-para {
+  color: white;
+  font-size: 30px;
+  float: right;
+  text-align: justify;
+  margin-right: 5%;
+}
+
+.br {
+  display: block;
+}
+
+.header-4 {
+  font-size: 120px;
+  color: #858585;
+  font-weight: bold;
+}
+
+.call {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.number {
+  color: #ffa500;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.mail {
+  color: white;
+  font-size: 60px;
+}
+
+.email {
+  color: #ffa500;
+  font-size: 50px;
+}
+
+.site {
+  background-color: #ffa500;
+  font-size: 50px; 
+}
+
+.website {
+  color: white;
+  font-size: 50px;
+}
+
+.reach {
+  font-size: 50px;
+  color: white;   
+}
+
+.ymca {
+  color: #ffa500;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px){
+  .br {
+    display: none;
+  }
+  .parallax-window-2 {
+    min-height: 4400px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  .header-2 {
+    font-size: 50px;
+  }
+  .para {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .para-2 {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .content-2 {
+    margin-left: 30%;
+  }
+  .header-3 {
+    font-size: 60px;
+  }
+  .xunbao-head {
+    font-size: 40px;
+  }
+  .xunbao-para {
+    font-size: 20px;
+    margin-right: 8%;
+  }
+  .presentation-head {
+    font-size: 40px;
+    margin-left: 6%;
+  }
+  .presentation-para {
+    font-size: 20px;
+    margin-left: 8%;
+  }
+  .code-head {
+    font-size: 40px;
+    margin-right: 50px;
+  }
+  .code-para {
+    font-size: 20px;
+    margin-right: 8%;
+  }
+  .header-4 {
+    font-size: 40px;
+  }
+  .call {
+    font-size: 20px;
+  }
+  .number {
+    font-size: 30px;
+  }
+  .mail{
+    font-size: 20px;
+  }
+  .email{
+    font-size: 25px;
+  }
+  .website{
+    font-size: 20px;
+  }
+  .site{
+    font-size: 25px;
+  }
+  .reach{
+    font-size: 20px;
+  }
+  .ymca{
+    font-size: 30px;
+  }
+}
