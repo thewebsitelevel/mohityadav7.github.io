@@ -376,3 +376,37 @@ h1 {
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 480px){
+  .hero-content {
+    margin-left: 3%;
+  }
+
+  .hero h1 {
+    margin-left: 1%;
+  }
+
+  .xunbao-head {
+    font-size: 40px;
+  }
+  .xunbao-para {
+    font-size: 19px;
+    margin-right: 8%;
+  }
+  .presentation-head {
+    font-size: 40px;
+    margin-left: 6%;
+  }
+  .presentation-para {
+    font-size: 19px;
+    margin-left: 8%;
+  }
+  .code-head {
+    font-size: 40px;
+    margin-right: 50px;
+  }
+  .code-para {
+    font-size: 19px;
+    margin-right: 8%;
+  }
+}
